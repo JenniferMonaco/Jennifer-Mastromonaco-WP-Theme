@@ -9,7 +9,3 @@
             <?php dynamic_sidebar( 'widget_1' ); ?>
     </aside>
     <?php endif; ?>
-
-
-
-<?php endif; ?>  add_theme_support( 'custom-logo' );

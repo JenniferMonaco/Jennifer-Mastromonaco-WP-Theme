@@ -8,7 +8,7 @@
     ?>
 
 
-    <?php wp_head(); ?>
+    <?php get_header(); ?>
     <?php // this function loads the header.php file ?>
 
     <h1><?php the_title(); ?></h1>
@@ -32,9 +32,6 @@
   </div>
 
   <!-- closing flex-container will go here -->
-
-  <?php wp_footer(); ?>
-  <?php // this function loads the footer.php file ?>
 
   <!-- START STEP 2.8 ADD H1 AND WORDPRESS LOOP -->
   <h1><?php the_title(); // AUTOMATICALLY ADDS THE PAGE TITLE ?></h1>
@@ -65,3 +62,7 @@
 
    <!-- END STEP 2.8 ADD H1 AND WORDPRESS LOOP -->
   <!-- closing flex-container will go here -->
+
+
+  <?php get_footer(); ?>
+  <?php // this function loads the footer.php file ?>
